@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RDxAURA | Projects Hub</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background: #050b14;
+            color: white;
+        }
+
+        /* Navbar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(8px);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav .logo {
+            font-size: 26px;
+            font-weight: bold;
+            color: #00aaff;
+        }
+
+        nav a {
+            color: #cfe8ff;
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 140px 20px;
+            background: linear-gradient(135deg, #001226, #041e36);
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            color: #00aaff;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #cfe8ff;
+            max-width: 700px;
+            margin: 20px auto;
+        }
+
+        .projects {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .project-card {
+            background: #0f1c2d;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #113355;
+            width: 300px;
+            margin: 20px;
+            display: inline-block;
+            transition: 0.3s;
+            text-decoration: none;
+            color: white;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            border-color: #00aaff;
+            box-shadow: 0 0 18px #0066ff44;
+        }
+
+        .project-card h3 {
+            color: #00aaff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #88b7d9;
+            margin-top: 80px;
+            border-top: 1px solid #113355;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">RDxAURA</div>
+        <div>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Welcome to RDxAURA</h1>
+        <p>Your unified hub for all IoT, Cybersecurity, AI, and full-stack projects built with passion, automation, and innovation.</p>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 style="color:#00aaff;">Featured Projects</h2>
+
+        <a href="https://app.rdxaura.co.in" class="project-card">
+            <h3>AURA – Smart Attendance System</h3>
+            <p>IoT + RFID + Facial Recognition powered attendance with teacher dashboard, HOD analytics, and ESP32 hardware integration.</p>
+        </a>
+
+        <a href="#" class="project-card">
+            <h3>Cybersecurity Tools (Coming Soon)</h3>
+            <p>Recon tools, endpoint finder, automation scripts, Wi-Fi/BLE experiments using ESP32 & RF modules.</p>
+        </a>
+
+        <a href="#" class="project-card">
+            <h3>Portfolio Website (Coming Soon)</h3>
+            <p>A modern, clean, professional portfolio showcasing all your skills and projects.</p>
+        </a>
+    </section>
+
+    <footer>
+        © 2025 RDxAURA · Built & Managed by Rohan Deshmukh
+    </footer>
+
+</body>
+</html>
